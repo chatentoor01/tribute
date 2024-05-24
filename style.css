@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 220vh;
+}
+.maincontainer {
+  background-color: #eee;
+  height: 280vh;
+  border-radius: 25px;
+  top: 40px;
+  position: relative;
+  width: 75vw;
+  left: 220px;
+  padding-bottom: 50px;
+  margin-bottom: 90px;
+}
+.heading {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 42px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  color: rgba(26, 25, 25, 0.78);
+}
+.quote {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+  /* top: 25px; */
+  color: rgba(26, 25, 25, 0.781);
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.picbox {
+  background-color: #c9c9c9e1;
+  padding: 30px 30px 0px 0px;
+  width: 70vw;
+  height: 70vh;
+  position: relative;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+.picbox img {
+  width: 66vw;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 55px;
+  border-radius: 15px;
+  top: 20px;
+}
+.picquote {
+  text-align: center;
+  color: rgba(26, 25, 25, 0.781);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  position: relative;
+  z-index: 10;
+  font-size: 32px;
+  top: 35px;
+}
+.life {
+  background-color: rgba(2, 148, 165, 0.4);
+  width: 70vw;
+  height: 155vh;
+  border-radius: 30px;
+  padding: 30px 30px 0px 0px;
+  position: relative;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+.quotehead h2 {
+  font-size: 40px;
+  color: #333333;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  font-weight: 700;
+}
+.content {
+  font-family: "Times New Roman", Times, serif;
+  color: #333333;
+  font-size: 28px;
+  padding-left: 20px;
+  padding-bottom: 35px;
+}
+.list {
+  font-family: "Times New Roman", Times, serif;
+  color: #333333;
+  font-size: 28px;
+  padding-left: 50px;
+}
+.list ul li {
+  padding-bottom: 10px;
+}
+.lastquote {
+  color: #333333;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 30px;
+  font-size: 28px;
+}
+.lastquote h3 {
+  padding-top: 20px;
+}
+.moreinfo {
+  color: #333333;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  padding-top: 15px;
+}
+.moreinfo a:hover {
+  color: rgb(21, 9, 89);
+  transition: all 1s ease-out;
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+}
+.footer {
+  height: 5vh;
+  background-color: #116677;
+}
+.footer .devlp {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 9px;
+}
+.footer a {
+  font-family: FontAwesome, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  text-decoration: none;
+  margin: 2px;
+}
+.footer a:hover {
+  color: #eee;
+}
+.logo img{
+    border-radius: 50px;
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    position: absolute;
+    top: 285vh;
+}
+@media (max-width: 1400px){
+    .maincontainer {
+        background-color: #eee;
+        height: 330vh;
+        border-radius: 25px;
+        top: 40px;
+        position: relative;
+        width: 50vw;
+        left: 150px;
+        padding-bottom: 50px;
+        margin-bottom: 90px;
+      }
+      .heading {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 800;
+        font-size: 36px;
+        text-align: center;
+        position: relative;
+        top: 18px;
+        color: rgba(26, 25, 25, 0.78);
+      }
+      .quote {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: center;
+        position: relative;
+        /* top: 25px; */
+        color: rgba(26, 25, 25, 0.781);
+        padding-top: 20px;
+        padding-bottom: 25px;
+      }
+     .picbox {
+        background-color: #c9c9c9e1;
+        padding: 25px 25px 0px 0px;
+        width: 45vw;
+        height: 55vh;
+        position: relative;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+      }
+      .picbox img {
+        width: 41vw;
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: px;
+        border-radius: 15px;
+        top: px;
+      }
+      .picquote {
+        text-align: center;
+        color: rgba(26, 25, 25, 0.781);
+        font-family: "Times New Roman", Times, serif;
+        font-weight: lighter;
+        position: relative;
+        z-index: 10;
+        font-size: 26px;
+        top: 25px;
+      }
+      .life {
+        background-color: rgba(2, 148, 165, 0.4);
+        width: 45vw;
+        height: 200vh;
+        border-radius: 30px;
+        padding: 10px 10px 0px 0px;
+        position: relative;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+      }
+      .quotehead h2 {
+        font-size: 34px;
+        color: #333333;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        padding: 10px;
+        font-weight: 700;
+      }
+      .content {
+        font-family: "Times New Roman", Times, serif;
+        color: #333333;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-bottom: 25px;
+      }
+      .list {
+        font-family: "Times New Roman", Times, serif;
+        color: #333333;
+        font-size: 20px;
+        padding-left: 40px;
+      }
+      .list ul li {
+        padding-bottom: 10px;
+      }
+      .lastquote {
+        color: #333333;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        padding-top: 25px;
+        font-size: 18px;
+      }
+      .lastquote h3 {
+        padding-top: 15px;
+      }
+      footer {
+        width: 75%;
+      }
+      .footer {
+        height: 8vh;
+        background-color: #116677;
+      }
+      .footer .devlp {
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 9px;
+      }
+      .footer a {
+        font-family: FontAwesome, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding-left: 10px;
+        text-decoration: none;
+        margin: 2px;
+      }
+      .footer a:hover {
+        color: #eee;
+      }
+      .logo img{
+          border-radius: 50px;
+          z-index: 20;
+          width: 100px;
+          height: 100px;
+          left: 0;
+          position: absolute;
+          top: 325vh;
+      }
+      .moreinfo {
+        color: #333333;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        padding-top: 15px;
+      }
+    }
+    @media (max-width: 900px){
+        .maincontainer {
+            background-color: #eee;
+            height: 340vh;
+            border-radius: 25px;
+            top: 40px;
+            position: relative;
+            width: 50vw;
+            left: 150px;
+            padding-bottom: 50px;
+            margin-bottom: 90px;
+          }
+          .heading {
+            font-family: "Times New Roman", Times, serif;
+            font-weight: 800;
+            font-size: 32px;
+            text-align: center;
+            position: relative;
+            top: 18px;
+            color: rgba(26, 25, 25, 0.78);
+          }
+          .quote {
+            font-family: "Times New Roman", Times, serif;
+            font-weight: 600;
+            font-size: 24px;
+            text-align: center;
+            position: relative;
+            /* top: 25px; */
+            color: rgba(26, 25, 25, 0.781);
+            padding-top: 20px;
+            padding-bottom: 25px;
+          }
+         .picbox {
+            background-color: #c9c9c9e1;
+            padding: 15px 15px 0px 0px;
+            width: 45vw;
+            height: 55vh;
+            position: relative;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            left: 10px;
+          }
+          .picbox img {
+            width: 41vw;
+            height: 40vh;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 25px;
+            border-radius: 15px;
+            top: px;
+          }
+          .picquote {
+            text-align: center;
+            color: rgba(26, 25, 25, 0.781);
+            font-family: "Times New Roman", Times, serif;
+            font-weight: lighter;
+            position: relative;
+            z-index: 10;
+            font-size: 24px;
+            top: 25px;
+          }
+          .life {
+            background-color: rgba(2, 148, 165, 0.4);
+            width: 45vw;
+            height: 215vh;
+            border-radius: 30px;
+            padding: 10px 5px 0px 0px;
+            position: relative;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            margin: 25px;
+          }
+          .quotehead h2 {
+            font-size: 30px;
+            color: #333333;
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            padding: 10px;
+            font-weight: 700;
+          }
+          .content {
+            font-family: "Times New Roman", Times, serif;
+            color: #333333;
+            font-size: 18px;
+            padding-left: 15px;
+            padding-bottom: 25px;
+          }
+          .list {
+            font-family: "Times New Roman", Times, serif;
+            color: #333333;
+            font-size: 18px;
+            padding-left: 40px;
+          }
+          .list ul li {
+            padding-bottom: 10px;
+          }
+          .lastquote {
+            color: #333333;
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            padding-top: 20px;
+            font-size: 18px;
+          }
+          .lastquote h3 {
+            padding-top: 15px;
+          }
+          footer {
+            width: 75%;
+          }
+          .footer {
+            height: 8vh;
+            background-color: #116677;
+          }
+          .footer .devlp {
+            color: #fff;
+            font-size: 22px;
+            text-align: center;
+            padding-top: 9px;
+          }
+          .footer a {
+            font-family: FontAwesome, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 2px;
+            padding-left: 10px;
+            text-decoration: none;
+            margin: 2px;
+          }
+          .footer a:hover {
+            color: #eee;
+          }
+          .logo img{
+              border-radius: 50px;
+              z-index: 20;
+              width: 100px;
+              height: 100px;
+              left: 0;
+              position: absolute;
+              top: 345vh;
+          }
+          .moreinfo {
+            color: #333333;
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 18px;
+            padding-top: 15px;
+          }
+        }
+
