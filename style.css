@@ -150,16 +150,7 @@ footer {
 .footer a:hover {
   color: #eee;
 }
-.logo img{
-    border-radius: 50px;
-    z-index: 20;
-    width: 100px;
-    height: 100px;
-    right: 0px;
-    position: absolute;
-    top: 285vh;
-}
-@media (max-width: 1400px){
+@media (max-width: 1200px){
     .maincontainer {
         background-color: #eee;
         height: 330vh;
@@ -293,15 +284,7 @@ footer {
       .footer a:hover {
         color: #eee;
       }
-      .logo img{
-          border-radius: 50px;
-          z-index: 20;
-          width: 100px;
-          height: 100px;
-          left: 0;
-          position: absolute;
-          top: 325vh;
-      }
+ 
       .moreinfo {
         color: #333333;
         text-align: center;
@@ -310,57 +293,57 @@ footer {
         padding-top: 15px;
       }
     }
-    @media (max-width: 900px){
+    @media (max-width: 700px){
         .maincontainer {
             background-color: #eee;
-            height: 340vh;
+            height: 560vh;
             border-radius: 25px;
-            top: 40px;
+            top: 20px;
             position: relative;
-            width: 50vw;
-            left: 150px;
-            padding-bottom: 50px;
-            margin-bottom: 90px;
+            width: 55vw;
+            left: 100px;
+            padding-bottom: 30px;
+            margin-bottom: 50px;
           }
           .heading {
             font-family: "Times New Roman", Times, serif;
             font-weight: 800;
-            font-size: 32px;
+            font-size: 28px;
             text-align: center;
             position: relative;
-            top: 18px;
+            top: 15px;
             color: rgba(26, 25, 25, 0.78);
           }
           .quote {
             font-family: "Times New Roman", Times, serif;
             font-weight: 600;
-            font-size: 24px;
+            font-size: 20px;
             text-align: center;
             position: relative;
             /* top: 25px; */
             color: rgba(26, 25, 25, 0.781);
-            padding-top: 20px;
-            padding-bottom: 25px;
+            padding-top: 15px;
+            padding-bottom: 20px;
           }
          .picbox {
             background-color: #c9c9c9e1;
             padding: 15px 15px 0px 0px;
             width: 45vw;
-            height: 55vh;
+            height: 60vh;
             position: relative;
             border-radius: 20px;
             justify-content: center;
             align-items: center;
             margin: 5px;
-            left: 10px;
+            left: 5px;
           }
           .picbox img {
-            width: 41vw;
+            width: 30vw;
             height: 40vh;
             align-items: center;
             justify-content: center;
             position: relative;
-            left: 25px;
+            left: 20px;
             border-radius: 15px;
             top: px;
           }
@@ -371,13 +354,13 @@ footer {
             font-weight: lighter;
             position: relative;
             z-index: 10;
-            font-size: 24px;
+            font-size: 20px;
             top: 25px;
           }
           .life {
             background-color: rgba(2, 148, 165, 0.4);
             width: 45vw;
-            height: 215vh;
+            height: 400vh;
             border-radius: 30px;
             padding: 10px 5px 0px 0px;
             position: relative;
@@ -387,7 +370,7 @@ footer {
             margin: 25px;
           }
           .quotehead h2 {
-            font-size: 30px;
+            font-size: 28px;
             color: #333333;
             text-align: center;
             font-family: "Times New Roman", Times, serif;
@@ -444,15 +427,6 @@ footer {
           }
           .footer a:hover {
             color: #eee;
-          }
-          .logo img{
-              border-radius: 50px;
-              z-index: 20;
-              width: 100px;
-              height: 100px;
-              left: 0;
-              position: absolute;
-              top: 345vh;
           }
           .moreinfo {
             color: #333333;
